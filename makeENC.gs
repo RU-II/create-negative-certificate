@@ -1,7 +1,7 @@
 function makeENC(value) {
-  //var templateFileUrl = 'https://docs.google.com/presentation/d/1yV6E8n7d_GUk6qKATrSiBHzXPWgX46_xNDpGokAKKFM/edit#slide=id.p';//テンプレート用プレゼンテーションのURL
+  //var templateFileUrl = 'https://docs.google.com/presentation/d/1eQdDWN1iDYw4OgGRd4OPh09PSr-3_yUtXit-FJN7jA0/edit#slide=id.p';//テンプレート用プレゼンテーションのURL
 
-  var templateFileId = '1yV6E8n7d_GUk6qKATrSiBHzXPWgX46_xNDpGokAKKFM';//テンプレートファイルのid
+  var templateFileId = '1eQdDWN1iDYw4OgGRd4OPh09PSr-3_yUtXit-FJN7jA0';//テンプレートファイルのid
 
   //var templateFile = SlidesApp.openById(templateFileId);//templateFileを開く
   //var templateFileName = templateFile.getName();//templateFileの名前を取得
@@ -9,9 +9,8 @@ function makeENC(value) {
   //var newFileName = templateFileName;//newFileNameにtemplateFileを代入
 
   var newFileName = "{name} 様　英文陰性証明書　発行日　検査日時";
-  
-  var folderId = '1KcIwycQLQkunOI-2Xy2JBCJIjlQpVed_';//newFileを保存するフォルダーのid
-  //var folderId = '1GaahjJiuXmOxUlQWijLfP_ZN1GWtK2Fy';//テスト用フォルダーid
+
+  var folderId = '1Q6d2IGxcgFj3MPFCpifk2CdHrCZTR0XS';//newFileを保存するフォルダーのid
 
   var nameCol = 2;
   var passportNameCol = 40;

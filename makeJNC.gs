@@ -1,8 +1,8 @@
 function makeJNC(value) {
 
-  //var templateFileUrl = 'https://docs.google.com/presentation/d/1apEcpGqY9o4IUCSICQGCBj1mbljgoTtPa-o9B4QQ56o/edit#slide=id.p';//テンプレート用プレゼンテーションのURL
+  //var templateFileUrl = 'https://docs.google.com/presentation/d/1Nq3UcYWg6e3yGXH_vDB3dEoDzPd1qZr186wjupJwI74/edit#slide=id.p';//テンプレート用プレゼンテーションのURL
 
-  var templateFileId = '1apEcpGqY9o4IUCSICQGCBj1mbljgoTtPa-o9B4QQ56o';//テンプレートファイルのid
+  var templateFileId = '1Nq3UcYWg6e3yGXH_vDB3dEoDzPd1qZr186wjupJwI74';//テンプレートファイルのid
   /*
   var templateFile = SlidesApp.openById(templateFileId);//templateFileを開く
   var templateFileName = templateFile.getName();//templateFileの名前を取得
@@ -10,8 +10,8 @@ function makeJNC(value) {
   var newFileName = templateFileName;//newFileNameにtemplateFileNameを代入
   */
   var newFileName = "{名前} 様　陰性証明書　発行日　検査日時";
-  var folderId = '1KcIwycQLQkunOI-2Xy2JBCJIjlQpVed_';//newFileを保存するフォルダーのid
-  //var folderId = '1GaahjJiuXmOxUlQWijLfP_ZN1GWtK2Fy';//テスト用フォルダーid
+
+  var folderId = '1Q6d2IGxcgFj3MPFCpifk2CdHrCZTR0XS';//newFileを保存するフォルダーのid
 
   var nameCol = 2;     //名前の列番号 1スタート
   var birthdayCol = 24;//生年月日の列番号
